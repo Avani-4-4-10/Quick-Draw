@@ -37,3 +37,16 @@ h3 {
     font-weight: bold;
     color: blueviolet;
 }
+canvas{
+    margin-top:90px ;
+    border: 2px dashed blueviolet;
+    border-radius: 10px;
+    animation-name: canvas;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes canvas{
+    from{box-shadow: 1px 1px 35px blueviolet;}
+    to{box-shadow: 1px 1px 35px red;}
+}
