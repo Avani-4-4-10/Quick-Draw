@@ -32,7 +32,7 @@ function draw() {
     if(drawn_sketch==sketch){
         answer_holder="set"
         score=score+1
-        document.getElementById("score").innerHTML="score: "+score
+        document.getElementById("score").innerHTML="Score: "+ score
     }
     strokeWeight(13)
     stroke(0)
